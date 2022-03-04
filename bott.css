@@ -1,0 +1,707 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-brand{
+    font-weight: bold;
+    text-shadow:0px 2px 1px rgb(15, 15, 15);
+    font-size: 25px;
+}
+#ph{
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    position:absolute;
+    left:300px;
+}
+.navbar-nav li{
+margin-right: 20px;
+}
+#form1{
+    position: absolute;
+    left: 880px;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+#form1 input{
+    width: 300px;
+    border: 1px solid black;
+
+}
+
+#form1 button{
+    width: 60px;
+    padding: 5px;
+    border:none;
+    position: relative;
+    right: 30px;
+}
+#icon1{
+    width: 30px;
+}
+
+#iconcontent{
+    width: 100%;
+    position:relative;
+    top: 64px;
+    height:185px;
+}
+#iconcontent .card{
+    width:100%;
+background-color:lightblue;
+border-radius: 0px;
+border: 1px solid lightblue;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+}
+.nav2 li{
+    list-style: none;
+    text-align: center;
+}
+.nav2 li:hover{
+    background-color: rgb(23, 99, 124);
+}
+.nav2 li a{
+font-weight: bold;
+    padding: 0px;
+color: rgb(248, 131, 88);
+}
+#page1{
+/* background-color: aqua; */
+height: 100vh;
+background-image:url('images/page111.jpg') ;
+background-repeat: no-repeat;
+/* background-size: contain; */
+background-size: 100% 100%;
+border: 2px solid grey;
+/* margin-top: 64px */
+display: flex;
+align-items:center;
+/* overflow: hidden; */
+}
+#pic1{
+    position:relative;
+    top: 31px;
+}
+#page2{
+    /* background-color: blue; */
+    height: 100vh;
+background-image: url('images/shopping3.jpg');
+ background-repeat: no-repeat;
+background-size: contain;
+background-size: 100% 100%;
+border: 2px solid grey;
+/* background-color: grey; */
+
+}
+#page3{
+    /* background-color: rgb(19, 218, 42); */
+    height: 100vh;
+    background-image:url('images/food1.jpg') ;
+
+border: 2px solid grey;
+background-repeat: no-repeat;
+/* background-size: contain; */
+background-size: 100% 100%;
+
+}
+#page4{
+    /* background-color: rgb(216, 146, 16); */
+    height: 100vh;
+border: 2px solid grey;
+border: 2px solid grey;
+background-image:url('images/enter.jpg') ;
+background-repeat: no-repeat;
+/* background-size: contain; */
+background-size: 100% 100%;
+
+}
+
+.phead{
+    color:tomato;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact{
+    color:gray;
+}
+.skills{
+    color:burlywood;
+    font-family: 'Courier New', Courier, monospace;
+} 
+#dd1{
+    position:absolute;
+    left: 1185px;
+    top: 46px;
+    border-radius: 0px;
+    background-color:black;
+    padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    font-family: 'Courier New', Courier, monospace;
+}
+#dd1 a{
+    text-decoration: none;
+    color: white;
+}
+
+#dd1 .dropdown-item:hover{
+    background-color:rgb(245, 84, 84);
+}
+
+
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+.flexpic{
+    display: flex;
+    justify-content:space-between;
+}
+.flexpic ul{
+    list-style: none;
+}
+
+#ind{
+    position: absolute;
+    bottom: 50px;
+}
+ #cdr1{
+    height:100%;
+}
+ #ci1{
+    height: 100%;
+} 
+#cdr2{
+    height:100%;
+}
+ #ci2{
+    height: 100%;
+} 
+#cdr3{
+    height:100%;
+}
+ #ci3{
+    height: 100%;
+} 
+#cdr4{
+    height:100%;
+}
+ #ci4{
+    height: 100%;
+} 
+#cdr5{
+    height:100%;
+}
+ #ci5{
+    height: 100%;
+} 
+#cdr6{
+    height:100%;
+}
+ #ci6{
+    height: 100%;
+} 
+#cdr7{
+    height:100%;
+}
+ #ci7{
+    height: 100%;
+} 
+.htext{
+    position: absolute;
+    left: 600px;
+    top: 200px;
+    color: wheat;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.dj{
+    color: red;
+    position:relative;
+    left:180px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+.dropdown-menu{
+    padding: 0px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+/* background-color:rgb(44, 41, 41); */
+}
+.dropdown-menu a:hover
+{
+    background-color:rgb(245, 84, 84);
+    color: white;
+}
+.dropdown-menu a{
+    color: white;
+}
+
+
+
+
+#pic2{
+    position:absolute;
+    top: 83px;
+    left: 825px;
+}
+
+
+.desc{
+    text-align: justify;
+    color:wheat;
+}
+.cont{
+    position:absolute;
+    left: 210px;
+    color:wheat;
+}
+
+
+
+.card-footer{
+    position: relative;
+    left: 60px;
+}
+
+
+.p1form{
+    position: absolute;
+    left: 442px;
+    top: 150px;
+    /* background-color: aqua; */
+    width: 360px;
+}
+#mform1{
+    width: 90%;
+    /* background-color: blue; */
+    display: block;
+margin: auto;
+border:0.5px solid lightslategray;
+padding:10px;
+}
+.exp{
+    color:yellow;
+    font-weight:bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    left: 40px;
+}
+#mform1 label{
+    color:darkturquoise;
+    font-family:sans-serif;
+}
+#mform1 input{
+    position: relative;
+    left: 15px;
+    background-color: transparent;
+    border:1px solid wheat;
+}
+#mform1 input:hover{
+    background-color: black;
+    color: white;
+}
+#chk{
+    position: relative;
+    left: 40px;
+}
+
+#log{
+    position: relative;
+    left: 40px;
+    width: 180px;
+}
+.reg:hover{
+    text-decoration: none;
+}
+
+.logind{
+    width: 90%;
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.logind a{
+    color:orange;
+}
+#row2{
+    width: 100%;
+    position: absolute;
+    top: 300px;
+}
+.p2flex1{
+    /* background-color: aqua; */
+   display: flex;
+}
+.p2flex1>div{
+    /* padding: 50px; */
+    background-color: rgb(252, 247, 247);
+    width: 400px;
+    height: 330px;
+    margin: 12px;
+}
+.card{
+    width:400px;
+    padding: 0px;
+}
+#pic21{
+    background-image:url('images/grocery4.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:10px inset grey;
+    opacity: 0.7;
+}
+#pic22{
+    background-image:url('images/clothing.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:10px inset grey;
+    opacity: 0.7;
+}
+#pic23:hover{
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100,0.5),0 6px 20px 0 rgba(100, 100, 100,0.5);
+    opacity: 1;
+}
+#pic22:hover{
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100,0.5),0 6px 20px 0 rgba(100, 100, 100,0.5);
+    opacity: 1;
+}
+#pic21:hover{
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100,0.5),0 6px 20px 0 rgba(100, 100, 100,0.5);
+    opacity: 1;
+}
+#pic23{
+    background-image:url('images/electronics1.jpg');
+    background-size:100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border:10px inset grey;
+    opacity: 0.7;
+
+}
+
+.btn2{
+    background-color:transparent;
+    border-radius: 5px;
+    border:1px solid grey;
+    width: 110px;
+    padding: 5px;
+    display: block;
+    position: absolute;
+    left: 40%;
+    top: 70%;
+    color:wheat;
+    font-weight: bold;
+}
+
+.btn2:hover{
+    background-color: rgb(8, 241, 8);
+    color: black;
+}
+
+#row1{
+    position: absolute;
+    top: 80px;
+    left: 400px;
+font-family: 'Times New Roman', Times, serif;
+}
+.gms{
+    text-align: center;
+    color:rgb(6, 172, 6);
+    font-size: 40px;
+    text-shadow: 1px 1px 2px rgb(5, 241, 5);
+}
+#p2nav1{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    position: absolute;
+    width:250px;
+    left: 130px;
+}
+#p2nav1 li{
+    margin: 3px;
+    /* background-color: black; */
+    text-align: center;
+    border: 1px inset whitesmoke;
+    /* background-color: transparent; */
+}
+#p2nav1 li:hover{
+    box-shadow: 0 4px 8px 0 rgba(250, 248, 248, 0.3),0 6px 20px 0 rgba(250, 248, 247, 0.3);
+}
+#p2nav1 li h4{
+    font-size: 17px;
+    font-weight: bold;
+    color: lightslategrey;
+}
+#p2nav1 li h4:hover{
+    color:blue;
+
+}
+
+
+#row31{
+    position:absolute ;
+    top: 60px;
+    padding: 0px;
+    /* background-color:lightgreen; */
+    width: 100%;
+}
+#res{
+    position: absolute;
+    left: 15px;
+    color:rgb(4, 255, 4);
+}
+#nav32{
+    position:relative;
+    left: 890px;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: center; */
+}
+#nav32 li a{
+    color: green;
+}
+
+
+#p2row2{
+    position: absolute;
+    background-color: antiquewhite;
+    top: 375px;
+    max-width: 100%;
+}
+.p2flex2{
+    display: flex;
+    justify-content: space-between;
+}
+.p2flex2>div{
+    width: 250px;
+    margin: 0px 9px;
+    background-color:black;
+    height: fit-content;
+    border-radius: 20px;
+}
+.p2img1{
+            background-image: url('images/chcikentandoori.jpg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width:100%;
+            height: 200px;
+            opacity: 0.7;
+}
+.p2img1:hover{
+    opacity: 1;
+}
+.p2img2{
+    background-image: url('images/idlianddosa.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 200px;
+    opacity: 0.7;
+
+}
+.p2img2:hover{
+    opacity: 1;
+}
+.p2img3{
+    background-image: url('images/chocolate.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 200px;
+    opacity: 0.7;
+
+}
+.p2img3:hover{
+    opacity: 1;
+}
+.p2img4{
+    background-image: url('images/burgerandpizza.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 200px;
+    opacity: 0.7;
+
+}
+.p2img4:hover{
+    opacity: 1;
+}
+.p2img5{
+    background-image: url('images/snacks.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width:100%;
+    height: 200px;
+    opacity: 0.7;
+
+}
+.p2img5:hover{
+    opacity: 1;
+}
+#p2btn1{
+    position:relative;
+    top: 70%;
+    left: 65px;
+    border: 1px solid wheat;
+}
+#p2btn1:hover{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
+.fa-star{
+    color: yellow;
+}
+.fa-star-half{
+    color: yellow;
+}
+#rupee{
+    position: relative;
+    left: 90px;
+    color: white;
+}
+.p2head h6{
+    color: wheat;
+    text-align: center;
+    /* font-size: 20px; */
+    position: relative;
+    top: 3px;
+    padding: 4px;
+}
+
+#rowhead{
+    position: absolute;
+    top: 160px;
+    left: 40%;
+}
+.p2heading h4{
+    color:green;
+}
+.p2heading h1{
+    color: green;
+    position: relative;
+    left:-10px;
+}
+.p2heading h6{
+    color: white;
+}
+
+.p2heading button{
+    position: relative;
+    left: 30px;
+    top: 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: 1px inset goldenrod;
+}
+.p2heading button:hover{
+    border: none;
+    background-color: green;
+}
+
+
+
+#rowp41{
+    max-width: 100%;
+    position:absolute ;
+    left: 12px;
+    top: 47%;
+    /* background-color: aqua; */
+}
+.p4flex1{
+    display: flex;
+}
+.p4flex1>div{
+    width: 430px;
+    /* background-color: aqua; */
+    color:darkolivegreen;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    border: 2px inset gold;
+}
+.p4flex1>div:hover{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100,0.5),0 6px 20px 0 rgba(100, 100, 100,0.5);
+}
+
+#rowp42{
+    max-width: 100%;
+    position:absolute;
+    left: 17px;
+    top: 60%;
+    height: fit-content;
+    /* height: 260px; */
+    /* height: 40%; */
+    /* background-color: aquamarine; */
+}
+.p4flex2{
+    display: flex;
+}
+.p4flex2>div{
+    width: 195px;
+    /* background-color: aqua; */
+    margin: 5px;
+    height: 240px;
+    opacity:0.7;
+}
+.p4flex2>div:hover{
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100,0.5),0 6px 20px 0 rgba(100, 100, 100,0.5);
+}
+
+.flexhead{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* background-color: antiquewhite; */
+    width: 100%;
+    top: 100px;
+}
+.flexhead h2{
+    text-align: center;
+    color: rgb(210, 255, 7);
+    font-weight: bold;
+}
+.flexhead h4{
+    text-align: center;
+    color:wheat;
+}
